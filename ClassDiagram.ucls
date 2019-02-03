@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.retail.store.billing.exception.RetailBillingTransactionException" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/exception/RetailBillingTransactionException.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="139" width="233" x="-196" y="15"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="com.retail.store.billing.process.service.RetailStoreBillingService" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/service/RetailStoreBillingService.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="121" width="289" x="144" y="355"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="3" language="java" name="com.retail.store.billing.process.RetailStoreBilling" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/RetailStoreBilling.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="284" x="-188" y="486"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="4" language="java" name="com.retail.store.billing.process.helper.UserTypeGroup" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/helper/UserTypeGroup.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="277" x="-181" y="401"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="5" language="java" name="com.retail.store.billing.process.RetailStoreBillingTemplate" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/RetailStoreBillingTemplate.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="67" width="271" x="75" y="21"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="6" language="java" name="com.retail.store.billing.process.helper.UserTypeGroupMapping" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/helper/UserTypeGroupMapping.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="157" width="312" x="-203" y="196"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="7" language="java" name="com.retail.store.billing.discount.Discount" project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/discount/Discount.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="53" width="208" x="453" y="13"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="8" language="java" name="com.retail.store.billing.process.RetailStoreBillingRepository" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/RetailStoreBillingRepository.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="151" width="284" x="-187" y="611"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="9" language="java" name="com.retail.store.billing.model.CustomerType" project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/model/CustomerType.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="253" width="246" x="842" y="492"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="10" language="java" name="com.retail.store.billing.process.service.RetailStoreBillingServiceImpl" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/service/RetailStoreBillingServiceImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="103" width="188" x="170" y="188"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.retail.store.billing.model.Customer" project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/model/Customer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="301" width="210" x="533" y="475"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.retail.store.billing.process.RetailStoreBillingProcessor" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/process/RetailStoreBillingProcessor.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="67" width="304" x="462" y="140"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="com.retail.store.billing.discount.DiscountCalculator" 
+    project="Retail-Store-Billing" 
+    file="/Retail-Store-Billing/src/main/java/com/retail/store/billing/discount/DiscountCalculator.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="67" width="215" x="521" y="302"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="14">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="15" name="customerType"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="17">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="18">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="19" name="customer"/>      
+      <multiplicity id="20" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="21">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <realization id="22">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
